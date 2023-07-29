@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="w-full bg-gray-100 py-16">
       <div className="max-w-[1240px] mx-auto flex flex-col px-4">
         <div className="sm:flex text-center justify-between items-center">
-          <h1>TRAVELS.</h1>
+          <h1 className="cursor-pointer">TRAVELS.</h1>
           <div className="flex justify-between my-4 w-full sm:max-w-[280px]">
             <FaFacebook className="icon" />
             <FaTwitter className="icon" />
@@ -17,18 +17,18 @@ const Footer = () => {
         </div>
         <div className="flex justify-between">
           <ul className="lg:flex">
-            <li>About</li>
-            <li>Partnership</li>
-            <li>Careers</li>
-            <li>Newsroom</li>
-            <li>Advertising</li>
+            <li className="cursor-pointer">About</li>
+            <li className="cursor-pointer">Partnership</li>
+            <li className="cursor-pointer">Careers</li>
+            <li className="cursor-pointer">Newsroom</li>
+            <li className="cursor-pointer">Advertising</li>
           </ul>
           <ul className="text-right lg:flex">
-            <li>Home</li>
-            <li>Destinations</li>
-            <li>Travel</li>
-            <li>View</li>
-            <li>Book</li>
+            <li className="cursor-pointer">Home</li>
+            <li className="cursor-pointer">Destinations</li>
+            <li className="cursor-pointer">Travel</li>
+            <li className="cursor-pointer">View</li>
+            <li className="cursor-pointer">Book</li>
           </ul>
         </div>
       </div>

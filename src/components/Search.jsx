@@ -55,12 +55,12 @@ const Search = () => {
         <div className="border text-center">
           <p className="py-2">GET AN ADDITIONAL 10% OFF</p>
           <p className="py-4">12 HOURS LEFT</p>
-          <p className="bg-gray-800  text-gray-200 py-2">BOOK NOW AND SAVE</p>
+          <p className="bg-gray-800  text-gray-200 py-2 cursor-pointer">BOOK NOW AND SAVE</p>
         </div>
         <form action="" className="w-full">
           <div className="flex flex-col my-2">
             <label htmlFor="">Destination</label>
-            <select name="" id="" className="border rounded-md p-2">
+            <select name="" id="" className="border rounded-md p-2 cursor-pointer">
               <option value="">Grande Antigua</option>
               <option value="">Key West</option>
               <option value="">Maldives</option>
@@ -84,7 +84,7 @@ const Search = () => {
               className="border rounded-md p-2"
             />
           </div>
-          <button className="w-full">Rates & Availabilities</button>
+          <button className="w-full btn" type="">Rates & Availabilities</button>
         </form>
       </div>
     </div>

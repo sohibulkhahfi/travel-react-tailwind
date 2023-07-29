@@ -15,18 +15,18 @@ function Navbar() {
   return (
     <div className="flex justify-between items-center h-20 px-4 absolute text-white z-10 w-full">
       <div className={nav ? "z-10 text-black" : ""}>
-        <h1>TRAVELS.</h1>
+        <h1 className="cursor-pointer">TRAVELS.</h1>
       </div>
       <ul className="hidden md:flex">
-        <li>Home</li>
-        <li>Destinations</li>
-        <li>Travel</li>
-        <li>View</li>
-        <li>Book</li>
+        <li className="cursor-pointer">Home</li>
+        <li className="cursor-pointer">Destinations</li>
+        <li className="cursor-pointer">Travel</li>
+        <li className="cursor-pointer">View</li>
+        <li className="cursor-pointer">Book</li>
       </ul>
       <div className="hidden md:flex">
-        <BiSearch size={20} className="mr-2" />
-        <BsPerson size={20} />
+        <BiSearch size={20} className="mr-2 cursor-pointer" />
+        <BsPerson size={20} className="cursor-pointer" />
       </div>
 
       {/* Hamburger Menu */}
