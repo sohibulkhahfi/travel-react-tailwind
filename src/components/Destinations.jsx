@@ -34,8 +34,8 @@ const Destinations = () => {
 
       {showModal && (
         <div className="fixed top-0 left-0 right-0 bottom-0 flex justify-center items-center bg-white z-10">
-          <div className="relative">
-            <img src={selectedImage} alt="/" className="w-full h-full object-contain" />
+          <div className="relative w-5/6">
+            <img src={selectedImage} alt="/" className=" object-contain" />
             <button type="button" className=" w-8 h-8 absolute top-6 right-6 text-white rounded-full bg-gray-700/70" onClick={handleCloseModal}>
               <span className="absolute top-50 left-50 transform -translate-x-1/2 -translate-y-1/2">X</span>
             </button>
